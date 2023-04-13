@@ -1,0 +1,171 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+ body {
+  position: relative;
+  background: rgb(231, 226, 226);
+  width: auto;
+  height: 700px;  
+}
+
+#car {
+  position: absolute;
+  height: 70px;
+  width: 140px;
+  right: 250px;
+  top: 220px;
+}
+
+.cube {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background: transparent;
+  left: 50px;
+  top: 500px;
+}
+
+.road {
+  position: absolute;
+  height: 10px;
+  width: 510px;
+  background: black;
+  right: 400px;
+  top: 200px;
+  border-radius: 10px;    
+}
+
+.road2 {
+  position: absolute;
+  height: 10px;
+  width: 340px;
+  background: black;
+  right: 400px;
+  top: 300px;
+  border-radius: 10px;
+}
+.road3 {
+  position: absolute;
+  height: 300px;
+  width: 10px;
+  background: black;
+  right: 900px;
+  top: 200px;
+  border-radius: 10px;
+}
+.road4 {
+  position: absolute;
+  height: 300px;
+  width: 10px;
+  background: black;
+  right: 730px;
+  top: 300px;
+  border-radius: 10px;
+}
+.road5 {
+  position: absolute;
+  height: 10px;
+  width: 400px;
+  background: black;
+  right: 730px;
+  top: 590px;
+  border-radius: 10px;
+}
+.road6 {
+  position: absolute;
+  height: 10px;
+  width: 230px;
+  background: black;
+  right: 900px;
+  top: 490px;
+  border-radius: 10px;
+}
+.garage {
+  position: absolute;
+  height: 10px;
+  width: 180px;
+  background: black;
+  left: 100px;
+  top: 450px;
+  border-radius: 10px;
+}
+
+.garage2 {
+  position: absolute;
+  height: 10px;
+  width: 200px;
+  background: black;
+  left: 100px;
+  top: 590px;
+  border-radius: 10px;
+}
+
+.garage3 {
+  position: absolute;
+  height: 150px;
+  width: 10px;
+  background: black;
+  left: 100px;
+  top: 450px;
+  border-radius: 10px;
+}
+
+.roof {
+  position: absolute;
+  height: 180px;
+  width: 10px;
+  background: black;
+  left: 120px;
+  top: 337px;
+  border-radius: 10px;
+  rotate: 45deg;
+}
+
+.roof2 {
+  position: absolute;
+  height: 170px;
+  width: 10px;
+  background: black;
+  left: 240px;
+  top: 340px;
+  border-radius: 10px;
+  rotate: -45deg;
+}
+
+
+.inscription, .inscription2, .inscription3,
+.inscription4, .inscription5, .inscription6,
+.inscription7 {
+  color: transparent;
+  position: absolute;
+  top: 30px;
+  left: 500px;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+.TextColor {
+  color: red;
+}
+
+.TextColor2 {
+  color: green;
+}
+
+.touch {
+  background: red;
+}
+
+.touch2 {
+  background: green;
+}
+
+.instructions {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
